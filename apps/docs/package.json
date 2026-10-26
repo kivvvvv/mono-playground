@@ -1,0 +1,30 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev",
+    "build": "storybook build -o storybook-static",
+    "serve": "serve storybook-static -l tcp://0.0.0.0:6007"
+  },
+  "dependencies": {
+    "@repo/ui": "*",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.6.1",
+    "@storybook/react": "^10.6.1",
+    "@storybook/react-vite": "^10.6.1",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "react-docgen-typescript": "^2.2.2",
+    "storybook": "^10.6.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}

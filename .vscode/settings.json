@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSaveMode": "file" /* tell oxfmt to format the whole file, not only the modified lines */,
+  "editor.formatOnSave": false /* disable default behavior */,
+  "editor.codeActionsOnSave": {
+    "source.format.oxc": "always" /* run formatter first */,
+    "source.fixAll.oxc": "always" /*  run lint fixes after */
+  },
+  "oxc.enable.oxlint": true,
+  "oxc.enable.oxfmt": true,
+  "oxc.typeAware": true,
+
+  "js/ts.experimental.useTsgo": true /*  TypeScript 7 > Experimental: Use Tsgo */,
+  "js/ts.tsdk.path": "./node_modules/typescript" /* Optional: use a local TypeScript package directory. */
+}
